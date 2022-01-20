@@ -1,12 +1,11 @@
 import './App.css';
-import TourCard from './components/TourCard';
+import Home from './pages/Home'
 
 function App() {
   return (
-    <div>
-      <TourCard />
-      <TourCard />
-    </div>
+    <>
+      <Home />
+    </>
   )
 }
 
