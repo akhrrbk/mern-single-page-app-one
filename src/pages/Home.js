@@ -1,12 +1,10 @@
 import TourCard from '../components/TourCard';
 import {Container, Grid, Typography} from '@mui/material'
-import NavBar from '../components/NavBar'
 import cities from '../data.json'
 
 const Home = () => {
     return (
         <div className='App'>
-        <NavBar />
             <Container sx={{marginY: 5}}>
                 {cities.map((cityname, i) => (
                 <div key={i}>
