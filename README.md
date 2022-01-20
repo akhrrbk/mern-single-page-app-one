@@ -10,4 +10,4 @@ now you can run the projcet on your local machine
 ### `npm start`
 
 project is going to launch at
-### [http://localhost:3000/]
+### [http://localhost:3000](http://localhost:3000)
